@@ -129,32 +129,32 @@ const removeTopics = document.querySelector('.remove-topic');
 const removeBtnNav = document.querySelector('.remove-topic-nav');
 
 //toggle implementation
-yBtnNav.addEventListener('click', catToggleY);
-yBtnTopics.addEventListener('click', catToggleY);
+// yBtnNav.addEventListener('click', catToggleY);
+// yBtnTopics.addEventListener('click', catToggleY);
 
-ewBtnNav.addEventListener('click', catToggleE);
-ewBtnTopics.addEventListener('click', catToggleE);
+// ewBtnNav.addEventListener('click', catToggleE);
+// ewBtnTopics.addEventListener('click', catToggleE);
 
-removeTopics.addEventListener('click', removeTopic);
-removeBtnNav.addEventListener('click', removeTopic);
+// removeTopics.addEventListener('click', removeTopic);
+// removeBtnNav.addEventListener('click', removeTopic);
 
 for (let i = 0; i < themeBtn.length; i++) {
     themeBtn[i].addEventListener('click', themeToggle);
 }
 
 // gsap animation ========================================================================================
-const blogCards = document.querySelectorAll('.blog-card');
+// const blogCards = document.querySelectorAll('.blog-card');
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
-blogCards.forEach(element => {
-    gsap.from(`.${element.className.split(' ')[2]}`, {
-        scrollTrigger: {
-            trigger: `.${element.className.split(' ')[2]}`,
-            toggleActions: 'restart none restart none',
-        },
-        opacity: 0,
-        duration: 1,
-        x: -300,
-    });
-});
+// blogCards.forEach(element => {
+//     gsap.from(`.${element.className.split(' ')[2]}`, {
+//         scrollTrigger: {
+//             trigger: `.${element.className.split(' ')[2]}`,
+//             toggleActions: 'restart none restart none',
+//         },
+//         opacity: 0,
+//         duration: 1,
+//         x: -300,
+//     });
+// });

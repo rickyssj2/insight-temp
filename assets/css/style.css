@@ -151,8 +151,8 @@ html {
 /*-----------------------------------*\ 
   #BASE STYLE
 \*-----------------------------------*/
-#start{
-    font-size: 2rem !important; 
+#start {
+    font-size: 2rem !important;
     font-weight: 800 !important;
 }
 
@@ -270,7 +270,7 @@ header {
 header .flex-wrapper {
     display: none;
 }
-.sticky{
+.sticky {
     position: sticky;
     top: 0;
 }
@@ -557,7 +557,7 @@ header .btn-group {
 footer {
     background: var(--background-primary);
 }
-.footer{
+.footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -814,6 +814,12 @@ footer .wrapper {
     /**
    * HEADER 
    */
+
+    #start {
+        font-size: 2rem !important;
+        font-weight: 800 !important;
+        color: black;
+    }
 
     header .btn-group {
         display: none;
