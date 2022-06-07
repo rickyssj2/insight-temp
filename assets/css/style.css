@@ -594,6 +594,10 @@ footer .wrapper {
     color: var(--foreground-secondary);
 }
 
+.footer-text {
+    color: var(--foreground-secondary);
+}
+
 .footer-link:hover {
     color: var(--accent);
 }
@@ -1160,6 +1164,10 @@ footer .wrapper {
     }
 
     .footer-link {
+        margin-bottom: 0.3rem;
+    }
+
+    .footer-text {
         margin-bottom: 0.3rem;
     }
 }
