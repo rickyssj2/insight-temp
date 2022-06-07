@@ -202,6 +202,10 @@ html {
     padding: 0 15px;
 }
 
+/* .nav-container {
+    position: fixed;
+} */
+
 .btn {
     min-width: 10rem;
     border-radius: 100px;
