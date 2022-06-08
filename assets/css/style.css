@@ -269,6 +269,9 @@ html {
 
 header {
     background: var(--background-primary);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
 }
 
 header .flex-wrapper {
@@ -435,6 +438,7 @@ header .btn-group {
 .main {
     background: var(--background-secondary);
     padding: var(--py) 0;
+    padding-top: calc(100px + 3rem);
 }
 
 .blog .h2 {

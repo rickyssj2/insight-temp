@@ -257,6 +257,9 @@ html {
 
 header {
     background: var(--background-primary);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
 }
 
 header .flex-wrapper {
@@ -380,6 +383,7 @@ header .btn-group {
     /* padding-top: 2rem; */
     padding-bottom: var(--py);
     text-align: left;
+    padding-top: 100px;
 }
 
 .hero .img-box {
@@ -387,7 +391,7 @@ header .btn-group {
     max-height: 500px;
     overflow: hidden;
     z-index: 2;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .hero .img-box::before {
@@ -418,8 +422,9 @@ header .btn-group {
 }
 
 .hero .h3 {
-    color: var(--foreground-secondary);
-    margin-bottom: 2rem;
+    color: var(--foreground-primary);
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .hero .title {
@@ -455,13 +460,24 @@ p {
 }
 
 .content li {
-    list-style-type: disc;
+    list-style-type: decimal;
     margin-left: 1.5rem;
+}
+
+.content a {
+    color: var(--accent);
+    text-decoration: underline;
 }
 
 /*-----------------------------------*\ 
   #BLOG SECTION
 \*-----------------------------------*/
+
+#start {
+    font-size: 4.5rem;
+    font-weight: normal;
+    line-height: 1rem;
+}
 
 .main {
     background: var(--background-secondary);
