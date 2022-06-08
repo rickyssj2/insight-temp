@@ -225,6 +225,11 @@ html {
     border-color: var(--accent);
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 /*-----------------------------------*\ 
   #Extra style for dark theme
 \*-----------------------------------*/
@@ -255,11 +260,9 @@ html {
   #HEADER
 \*-----------------------------------*/
 
-header {
+.header {
     background: var(--background-primary);
-    position: fixed;
     z-index: 99;
-    width: 100vw;
 }
 
 header .flex-wrapper {
@@ -383,7 +386,6 @@ header .btn-group {
     /* padding-top: 2rem; */
     padding-bottom: var(--py);
     text-align: left;
-    padding-top: 100px;
 }
 
 .hero .img-box {

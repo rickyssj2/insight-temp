@@ -267,11 +267,8 @@ html {
   #HEADER
 \*-----------------------------------*/
 
-header {
+.header {
     background: var(--background-primary);
-    position: fixed;
-    z-index: 99;
-    width: 100vw;
 }
 
 header .flex-wrapper {
