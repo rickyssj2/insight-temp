@@ -269,6 +269,7 @@ html {
 
 .header {
     background: var(--background-primary);
+    z-index: 1000;
 }
 
 header .flex-wrapper {
