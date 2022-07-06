@@ -31,75 +31,7 @@
     - #HEADER
   -->
 
-    <header class = "header sticky">
-        <div class="container">
-            <nav class="navbar">
-                <a href="../index.html">
-                    <img src="./assets/images/insight-iitb-logo.png" alt="Devblog's logo" width="150"
-                        class="logo-light" />
-                    <img src="./assets/images/insight-iitb-logo.png" alt="Devblog's logo" width="150"
-                        class="logo-dark" />
-                </a>
-
-                <div class="btn-group">
-                    <button class="theme-btn theme-btn-mobile light">
-                        <ion-icon name="moon" class="moon"></ion-icon>
-                        <ion-icon name="sunny" class="sun"></ion-icon>
-                    </button>
-
-                    <button class="nav-menu-btn">
-                        <ion-icon name="menu-outline"></ion-icon>
-                    </button>
-                </div>
-
-                <div class="flex-wrapper">
-                    <ul class="desktop-nav">
-                        <li>
-                            <a href="../index.html" class="nav-link">Home</a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="nav-link">Summer Blog</a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="nav-link">Our Team</a>
-                        </li>
-                    </ul>
-
-                    <button class="theme-btn theme-btn-desktop light">
-                        <ion-icon name="moon" class="moon"></ion-icon>
-                        <ion-icon name="sunny" class="sun"></ion-icon>
-                    </button>
-                </div>
-
-                <div class="mobile-nav">
-                    <button class="nav-close-btn">
-                        <ion-icon name="close-outline"></ion-icon>
-                    </button>
-
-                    <div class="wrapper">
-                        <p class="h3 nav-title">Main Menu</p>
-
-                        <ul>
-                            <li class="nav-item">
-                                <a href="./index.html" class="nav-link">Home</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Summer Blog</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Our Team</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </nav>
-        </div>
-    </header>
+    <app-navbar></app-navbar>
 
     <main>
         <!--
@@ -255,6 +187,7 @@
   -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="../assets/js/components/NavBar.js"></script>
 </body>
 
 </html>
