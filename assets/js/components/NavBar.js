@@ -320,7 +320,7 @@ header .btn-group {
                 </li>
 
                 <li>
-                    <a href="./summerblog.html" class="nav-link">Summer Blog</a>
+                    <a href="https://insightiitb.netlify.app/summerblog.html" class="nav-link">Summer Blog</a>
                 </li>
 
                 <li>
@@ -348,7 +348,7 @@ header .btn-group {
                     </li>
 
                     <li class="nav-item">
-                        <a href= "./summerblog.html" class="nav-link">Summer Blog</a>
+                        <a href= "https://insightiitb.netlify.app/summerblog.html" class="nav-link">Summer Blog</a>
                     </li>
 
                     <li class="nav-item">

@@ -96,6 +96,10 @@ button {
     display: block;
 }
 
+img {
+    max-height: 300px;
+}
+
 a,
 span {
     display: inline-block;
