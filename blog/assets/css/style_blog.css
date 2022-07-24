@@ -92,9 +92,7 @@ button {
     display: block;
 }
 
-img {
-    max-height: 300px;
-}
+
 
 a,
 span {
@@ -708,6 +706,7 @@ footer .wrapper {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        max-height: 300px;
     }
 }
 
