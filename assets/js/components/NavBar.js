@@ -324,6 +324,10 @@ header .btn-group {
                 </li>
 
                 <li>
+                    <a href="https://insightiitb.netlify.app/sophieblog.html" class="nav-link">Sophie Blog</a>
+                </li>
+
+                <li>
                     <a href="https://www.insightiitb.org/ourteam/" class="nav-link">Our Team</a>
                 </li>
             </ul>
